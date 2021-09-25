@@ -431,6 +431,7 @@ void editemp()
     //rename the temp file as empfile
     rename("tmpfile.txt","empfile.txt");
     //if id does not exist display employee doesn't exist
+    getchar();
     if(i==0)
     {
         pr("\t\t\tEMPLOYEE-ID DOESN'T EXIST!!!\n\n");
