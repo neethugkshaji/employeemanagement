@@ -231,6 +231,7 @@ void delemp()
 		{
 			i=1;
 			pr("\t\t\tDELETED SUCCESSFULLY\n");
+			break;
 		}
 		if(feof(fp1))
 		{
